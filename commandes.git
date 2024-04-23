@@ -1,0 +1,51 @@
+Commande GIT
+
+Avant d'ouvrir le git bash
+--------------------------------------------------------------------------------------------------------------------------------
+Pour avoir une vue des commits sur une branche, je conseille d'ajouter l'alias "lg" en fin de fichier C:Users/"monUser"/.gitconfig :
+[user]
+	email = celine.mercier@sogeti.com
+	name = Celine Mercier
+[alias]
+    lg = log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
+
+ensuite sur la branche ou une autre, taper "git lg" (q pour sortir)
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Ouvrir Git Bash (sur Windows)
+	cd C:Users/cemercie/AppData/Local/TESTFACTORY/workspace/DIGITAL_SYSTEMS_RBF
+
+Monter ces modifications sur le Git local
+	git add .
+	git commit -m "Verify et Select OK"
+
+Pousser les modifications du local sur le serveur
+	git push
+
+Récupérer les tests du serveur sur le local
+	git pull
+
+Vérifier et recharger les différentes branches du serveurs sur le local
+	git fetch --all --tags
+
+pour connaitre l'état serveur et local
+	git remote show origin
+
+Pour passer de main dans develop
+	git checkout develop
+
+Enregistrer la branche "Perso" sur develop:
+	git checkout develop
+	git merge "Perso"
+	git push
+
+créer branch
+	git checkout -b develop
+	
+Commandes supplémentaires en cas de soucis:
+	Pour faire un git pull sans le git commit (annulation des modif en-cours)
+	git pull --no-commit
+	
+	Pour mettre à jour un fichier en cache
+	git rm --cached .gitignore

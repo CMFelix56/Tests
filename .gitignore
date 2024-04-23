@@ -1,0 +1,5 @@
+# ignorer quand meme
+**/__pycache__/*
+interactive_console_output.xml
+/Results
+/venv

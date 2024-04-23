@@ -1,0 +1,273 @@
+{
+    "Header": {
+        "Icon": "nav svg",
+        "TitreSite": "nav h1",
+        "TitrePrimary": "nav h1 span"
+    },
+    "NavBarMenu": {
+        "Accueil": "//div[@class='Header-module_header_navbar_ax6by']/a[@href*='/']",
+        "TableauDeBord": "aFaire",
+        "APropos": "aFaire",
+        "Accessibilite": "aFaire",
+        "Langue": "aFaire"
+    },
+    "NavBarConnexion": {
+        "Seconnecter": "aFaire",
+        "SeconnecterInscrire": "aFaire"
+    },
+    "Accueil": {
+        "Texte1": "//div[@class='Hero-module_hero_content_wr5YC']/p[@class='Hero-module_hero_site_bGtSg']",
+        "Texte2": "//div[@class='Hero-module_hero_content_wr5YC']/h1",
+        "Texte3": "//div[@class='Hero-module_hero_content_wr5YC']/p[@class='Hero-module_hero_para_IOaU3']",
+        "BoutonConnexion": "//div[@class='Header-module_header_navbar_ax6by']/div/button[@type='submit']",
+        "BoutonNomConnecte": "//div[@class='Header-module_header_navbar_ax6by']/div/div/button[@Tabindex='0']",
+        "BoutonDeconnexion": "//div[@role='presentation']//button"
+    },
+    "TableauDeBord": {
+        "NavBarVert": {
+            "MultiThemes": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "aFaire": "aFaire",
+                "Switch_PisteCyclables": "aFaire",
+                "SwLabel_PisteCyclables": "aFaire",
+                "Switch_StationsVelo": "aFaire",
+                "SwLabel_StationsVelo": "aFaire",
+                "Switch_StationsService": "aFaire",
+                "SwLabel_StationsService": "aFaire",
+                "Switch_TransportEnCommun": "aFaire",
+                "SwLabel_TransportEnCommun": "aFaire",
+                "Switch_BornesElectriques": "aFaire",
+                "SwLabel_BornesElectriques": "aFaire",
+                "Switch_Evenements": "aFaire",
+                "SwLabel_Evenements": "aFaire",
+                "Switch_Meteo": "aFaire",
+                "SwLabel_Meteo": "aFaire",
+                "Switch_QualiteDeLAir": "aFaire",
+                "SwLabel_QualiteDeLAir": "aFaire",
+                "Switch_Temperature": "aFaire",
+                "SwLabel_Temperature": "aFaire",
+                "Switch_EcoleCollegesLycees": "aFaire",
+                "SwLabel_EcoleCollegesLycees": "aFaire",
+                "Switch_MenusCantines": "aFaire",
+                "SwLabel_MenusCantines": "aFaire",
+                "Switch_Pharmacie": "aFaire",
+                "SwLabel_Pharmacie": "aFaire",
+                "Switch_AiresDeJeux": "aFaire",
+                "SwLabel_AiresDeJeux": "aFaire",
+                "Switch_Decheterie": "aFaire",
+                "SwLabel_Decheterie": "aFaire",
+                "Switch_FontaineAEau": "aFaire",
+                "SwLabel_FontaineAEau": "aFaire",
+                "Switch_Lacs": "aFaire",
+                "SwLabel_Lacs": "aFaire",
+                "Switch_Marches": "aFaire",
+                "SwLabel_Marches": "aFaire",
+                "Switch_BornesWIFI": "aFaire",
+                "SwLabel_BornesWIFI": "aFaire",
+                "Switch_ConsommationElectrique": "aFaire",
+                "SwLabel_ConsommationElectrique": "aFaire",
+                "Switch_DensitePopulation": "aFaire",
+                "SwLabel_DensitePopulation": "aFaire",
+                "Switch_Demographie": "aFaire",
+                "SwLabel_Demographie": "aFaire"
+            },
+            "Transports": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "Switch_PisteCyclables": "aFaire",
+                "Switch_StationsVelo": "aFaire",
+                "Switch_StationsService": "aFaire",
+                "Switch_TransportEnCommun": "aFaire",
+                "Switch_BornesElectriques": "aFaire"
+            },
+            "Evenements": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "Evenements": "aFaire"
+            },
+            "Climat": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "Meteo": "aFaire",
+                "QualiteDeLAir": "aFaire",
+                "Temperature": "aFaire"
+            },
+            "Education": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "EcoleCollegesLycees": "aFaire",
+                "MenusCantines": "aFaire"
+            },
+            "Sante": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "Pharmacie": "aFaire"
+            },
+            "LieuxDivers": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "AiresDeJeux": "aFaire",
+                "Decheterie": "aFaire",
+                "FontaineAEau": "aFaire",
+                "Lacs": "aFaire",
+                "Marches": "aFaire"
+            },
+            "Réseaux": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "BornesWIFI": "aFaire",
+                "ConsommationElectrique": "aFaire"
+            },
+            "Population": {
+                "id": "aFaire",
+                "label": "aFaire",
+                "CloseVolet": "aFaire",
+                "DensitePopulation": "aFaire",
+                "Demographie": "aFaire"
+            }
+        },
+        "Widget_PisteCyclables": {
+            "id": "bikePath",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_StationsVelo": {
+            "id": "bike",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_StationsService": {
+            "id": "gasStations",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_TransportEnCommun": {
+            "id": "tisseo",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_BornesElectriques": {
+            "id": "electricalTerminal",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Evenements": {
+            "id": "events",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Meteo": {
+            "id": "weather",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_QualiteDeLAir": {
+            "id": "airquality",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Temperature": {
+            "id": "thermometer",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_EcoleCollegesLycees": {
+            "id": "schools",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_MenusCantines": {
+            "id": "cantine",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Pharmacie": {
+            "id": "pharmacy",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_AiresDeJeux": {
+            "id": "playground",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Decheterie": {
+            "id": "wasteDisposal",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_FontaineAEau": {
+            "id": "water",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Lacs": {
+            "id": "lacs",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Marches": {
+            "id": "markets",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_BornesWIFI": {
+            "id": "bornesWifi",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_ConsommationElectrique": {
+            "id": "consumption",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_DensitePopulation": {
+            "id": "population",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        },
+        "Widget_Demographie": {
+            "id": "demography",
+            "label": "aFaire",
+            "SwitchMapTable": "aFaire"
+        }
+    },
+    "APropos": {
+        "aFaire": "aFaire"
+    },
+    "Accessibilite": {
+        "aFaire": "aFaire"
+    },
+    "Langue": {
+        "aFaire": "aFaire"
+    },
+    "Connexion": {
+        "LabelUsername": "//label[@for='username']",
+        "placeholder": "//input[@placeholder='Email']",
+        "Username": "//input[@placeholder='Email']",
+        "Password":"//input[@type='password']",
+        "Text1": "//p/span",
+        "PaysLabel": "//select",
+        "PaysValue": "//select",
+        "BoutonValider": "//div[@Class='LoginForm-module_btnContainer_UNVHG']/button"
+    },
+    "Connexion2": {
+        "LabelUsername": "//input[@name='email']",
+        "PlaceholderUsername": "//input[@name='email']",
+        "Username": "//input[@name='email']",
+        "Text1": "//h2",
+        "Text2": "//p[@class='sc-irTswW cVpUcp']",
+        "Text3": "//span[@class='sc-bqWVmG flyFlt']",
+        "PaysValue": "//select",
+        "BoutonValider": "//div[@Class='LoginForm-module_btnContainer_UNVHG']/button"
+    }
+}

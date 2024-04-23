@@ -1,0 +1,25 @@
+// Ce fichier permettra de mettre en place le « Run Configuration » pour lancer les tests robot
+// Vous pouvez modifier ce fichier de configuration sans avoir besoin de modifier la valeur par défaut de la variable ${BROWSER} dans le code
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "robotframework-lsp",
+            "name": "Robot Framework: Launch template",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "target": "${workspaceFolder}",
+            "terminal": "integrated",
+            "env": {
+                "PROJECT_FOLDER": "${workspaceFolder}"
+            },
+            "args": [
+                "--nostatusrc",
+                "--outputdir", "Results",
+                "--variable", "BROWSER:chrome",
+                "--variable", "LANG:Fr",
+                //"--include", "tnr",
+            ]
+        }
+    ]
+}

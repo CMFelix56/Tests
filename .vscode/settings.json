@@ -1,0 +1,13 @@
+//Ce fichier permettra de définir le chemin d'environnement Python pour les fichiers robot et python
+//Il est important de pointer dessus car ce "venv" contient les packages nécessaires
+
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "robot.language-server.python": "${workspaceFolder}/venv/Scripts/python.exe",
+    "robot.python.env": {
+    "PROJECT_FOLDER": "${workspaceFolder}"
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "workbench.tree.indent":15
+}

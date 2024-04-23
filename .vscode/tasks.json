@@ -1,0 +1,19 @@
+// Ce fichier permettra de construire des tâches prédéfinies
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "RobotFramework : robocop",
+            "type": "shell",
+            "command": "venv/Scripts/activate; robocop --reports all tests",
+            "problemMatcher": []
+        },
+        {
+            "label": "RobotFramework : robotidy",
+            "type": "shell",
+            "command": "venv/Scripts/activate; robotidy tests",
+            "problemMatcher": []
+        }
+    ]
+}
