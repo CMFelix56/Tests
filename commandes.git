@@ -10,11 +10,16 @@ Pour avoir une vue des commits sur une branche, je conseille d'ajouter l'alias "
     lg = log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
 
 ensuite sur la branche ou une autre, taper "git lg" (q pour sortir)
+Si il n'y a pas de de fichier:
+sur Git Bash:
+git config --global user.email "cm_felix@yahoo.fr"
+git config --global user.name "felix"
+git config --global alias.lg "log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'"
 --------------------------------------------------------------------------------------------------------------------------------
 
 
 Ouvrir Git Bash (sur Windows)
-	cd C:Users/cemercie/AppData/Local/TESTFACTORY/workspace/DIGITAL_SYSTEMS_RBF
+	cd D:/Automatisation/workspace_RBF/Tests
 
 Monter ces modifications sur le Git local
 	git add .
